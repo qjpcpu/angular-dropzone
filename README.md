@@ -50,4 +50,3 @@ error="uploadFail($file)"
 * `error`: function would be invoked when upload failed
 
 ### Feel free to fork
-
