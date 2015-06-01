@@ -1,4 +1,4 @@
-angular.module('qjpcpu.angular-dropzone', []).directive('qjp-dropzone', function() {
+angular.module('qjpcpu.angular-dropzone', []).directive('qjpDropzone', function() {
   return {
     restrict: 'A',
     scope: {
