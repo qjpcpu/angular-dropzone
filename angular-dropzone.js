@@ -13,7 +13,7 @@ angular.module('qjpcpu.angular-dropzone', []).directive('qjpDropzone', function(
       var dropzoneObject, dropzoneWidget;
       dropzoneObject = null;
       dropzoneWidget = $element.dropzone({
-        url: url,
+        url: $attrs.url,
         method: $attrs.method || 'post',
         paramName: $attrs.paramName || 'file',
         autoProcessQueue: typeof $attrs.autoUpload === 'undefined' || $attrs.autoUpload !== 'false',
